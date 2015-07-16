@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="关于BMI"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="13dp"
+    android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  BMI指数（Body Mass Index)即身体质量指数，是与体内脂肪总量密切相关的指标，主要反映全身性超重和肥胖。由于BMI计算的是身体脂肪的比例，所以在测量身体因超重而面临心脏病、高血压等风险上，比单纯的以体重来认定，更具准确性。"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI指数范围："
+        android:textSize="23sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    小于16          极度偏瘦"
+        android:gravity="center"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="16~18.5             偏瘦"
+        android:gravity="center"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="18.5~25             正常 "
+        android:gravity="center"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="25~30               偏胖"
+        android:gravity="center"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30~35               肥胖"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   35~40           重度肥胖"
+        android:gravity="center"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   大于40           极度肥胖"
+        android:gravity="center"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:background="@drawable/e" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="珍爱生命，远离肥胖！"
+            android:textColor="#ff0000"
+            android:layout_gravity="center"
+            android:textSize="40sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</FrameLayout>
